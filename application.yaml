@@ -11,5 +11,3 @@ management:
     export:
       wavefront:
         uri: https://surf.wavefront.com
-        api:
-          token: '{cipher}AgANujSiCB11dVBnQ0xoO9KKElXHB5gYTUruowqE1plGK5lMJ4l9Z615Nj9jMerNrnTVE6BI4MYrba+HY4QQUJoCe7a40qDQSteBdypJwQebg4UIbX2MlEBAFjvqBVT5Lox02nHEcGm1EbzWU05+uNDDX4Mjk28soFv1fYDsJ3LH5MYRdgL6zoFXdLWOWNvy+GfY6KkajQCG2VTq5hraznvFkNTx72Y5EIUmoXWx4BQOUSqQysnqhJV0L0GHJM0mHLSNr5EetUEj3CpUFIqJZpWvwumvyIFC50+y2Feqt/P4pTp+c6PkwICF/v/5gEgxoTYeUZ/mL1ezKrMWGarxzFdaEkRzdEPvNfcbE/s2SewO8mruWZCqRr69U2qcazd3KzgG/x40qz/2gmIYDGlxymchHBnT1JAfUAoXDHzsQkRX+eNPscJwEaEP/yUPZCYyTepYUdmSgfN05ldREi+e5K4iatjTi22qm3slg47nIgpJPPHicFToYqw4voV6IJdwlPkBUC2SU4ebZykBqJ1LlY1GvXgUQoojES0zXq5sHGKXhaD21BTEyojJy44tf/CBFzsThtFvuK2/7H6GMjt98o414NDpvLJxGOa+g713uu4munj7fvcL72ZoHVnSDj8gaXW71sbeXY0nSHBRUjqj1Ceznu1ugHIfo7ft2tmv2DjgmvHjICzqntfAJhPCK6atiB1M3HxrSwe7StGMsvplrOOffKB93OAnxv2BR2sdFbHWr5oU4n8MW/qjdy0GOWB/MnE='
