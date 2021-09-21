@@ -5,3 +5,7 @@ management:
         include: "*"
 winterfell:
   env: foo
+spring:
+  sleuth:
+    sampler:
+      rate: 11
