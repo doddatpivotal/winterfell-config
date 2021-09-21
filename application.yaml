@@ -1,11 +1,16 @@
 management:
+  endpoint:
+    health:
+      show:
+        detals: always 
   endpoints:
     web:
       exposure:
         include: "*"
-winterfell:
-  env: foo
-spring:
-  sleuth:
-    sampler:
-      rate: 11
+  metrics:
+    export:
+      wavefront:
+        uri: https://surf.wavefront.com
+        api:
+          token: '{cipher}AgA+lGUqSoW8O66vRZ1AlzP8aa8BNClfM+osECw3iFH+VsvhJXnmkOjWCwKXs6adhtNN/VlSurbz2lG7UFfZeUxMFzizFpB2g5uUttfNlS8MLfgWIMGiPyPSnk9AnEVZiuOeq/fAQr/VOzvxfQAM/dLijmZ73xH3nAxQqQLcI1q5Nqkyr08YBr3qwewgABtc48OlJsqKy0LclJwrvOk7djuTzO9NqSI54oIJv7oBHI68tc/dd/Yqw6lm2KGlAKo8Oq36hap7Q6qHxxbez0aL7PF0aKpKfT8Gp6v7OT7TDzzyhE5GlTYc62fbg0Qy7sW2UlaHzRq/R1HF0UxTQQtbEed5ZfkIdg1sCrxsxMegjQG8eflML+9H0WhEAn1ZfZyX5p9leIiNWo2qM/b+zwFnYCbxiMVBfGQzkMxSq931Gqtnk7XWpXZSnONeBgH6T2d/gZ0drQ92BKkZ5hcaDc6c25Cr/pB0aww8ou2/3/QGZztAeZQS82UXGVuKSBVpvxRStOwBMQN0AQqctUDNodK3wP89ROMmotxl07oVdjsfk8lHhRRzvZfvoJ1cvqOS+5v2X6o5r7vTYe6UY1OHPnkteXhoNEfhNHUd1Ox3id1003zNh6OdQzxnKy/Qawkg7/JkyD0Wuz2tgHjAvumQkCJOXwyIJqM7AEfb6e8y8wcFcXeTACO/gHqvkHkgaHKpUyO8Cj1+PxR/Gtcpd6chMatpOCbapQcDdzYPRmcMWo66/1/8xN8w3o3pdySYcQEIcX9Ql68='
+          
