@@ -11,5 +11,4 @@ management:
     export:
       wavefront:
         uri: https://surf.wavefront.com
-        api:
-          token: '{cipher}451510a1837a548051e550f61c973767a9e4989fbc384c15a5e0419b856dea339d3111212741cd564d3dd01bcb3b6ecfd27397c61a8232e43c76751023d21f4d'
+        api-token: '{cipher}451510a1837a548051e550f61c973767a9e4989fbc384c15a5e0419b856dea339d3111212741cd564d3dd01bcb3b6ecfd27397c61a8232e43c76751023d21f4d'
